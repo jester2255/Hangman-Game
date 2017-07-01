@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript"  src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class = "jumbotron">
+		<div class = "container">	
+		<h1>Hangman</h1>
+		</div>
+	</div>
+	<div class = "hangman" style = "height: 1050px">
+	 h
+	<img src="assets/images/the_gallows_by_aniqeanuk-d6ukirn.jpg" alt="the gallows" >
+		<div class = "Game">
+		<h2>Instructions</h2>
+		<h3>You have 6 chances to guess the word</h3>
+		<h3>Do not hit enter as it will start a new game click the guess button</h3>
+		<p id ="ratefield"> </p>
+		<form name="rateForm">
+		<input name="signs" type="text" size="5" maxlength="1">
+		<br>
+		<input name="ratebutton" type="button" value="Guess" onClick="certMark()">
+		
+		<p id="wrongLetter">Wrong Letters:</p>
+		
+		<img id = "hangman" src="assets/images/hangman0.png" id="hangman"><br />
+		<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+		</form>
+
+		</div>
+	</div>
+</body>
+</html>

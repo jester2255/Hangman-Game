@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Oldenburg);
+@import url(https://fonts.googleapis.com/css?family=Pacifico|VT323);
+/*div{
+	text-align: center;
+	font-family: 'Permanent Marker', 'cursive';
+}
+}
+.hangman{
+	font-size: 40px;
+	font-family: 'Permanent Marker', 'cursive';
+    
+}*/
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+.jumbotron{
+	color: red;
+}
+img{
+	position: relative;
+    z-index: -1;
+	width: 95%
+}
+.Game{
+	position: relative;
+	left: 0%;
+    top: -850px;
+}
+input {
+    border: 2px solid red;
+    font-family: 'VT323', monospace;
+	color: red;
+	font-size: 25px;
+}
+
+#ratefield {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    color: red;
+}
+#hangman{
+	border: 2px solid red;
+	width: 14%;
+    height: auto;
+}
+#wrongLetter{
+	color: red;
+	 font-size: 25px;
+}
+h1 {
+    font-family: 'VT323', monospace;
+    color: red;
+
+}
+h2 {
+    font-family: 'VT323', monospace;
+    color: red;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    color: red;
+    font-size: 25px;
+}
