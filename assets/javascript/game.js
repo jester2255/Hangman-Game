@@ -1,13 +1,22 @@
-/*words for hangman*/
+/*words for hangman
+CAR
+HOUSE
+CODING
+TRUCK
+APPLE
+BOAT
+CANDY
+DOCUMENT
+*/
 
 var theWords =[
 ['C', 'A', 'R'],
 ['H', 'O', 'U', 'S', 'E'],
 ['C', 'O', 'D', 'I', 'N', 'G'],
 ['T', 'R', 'U', 'C', 'K'],
-['A'],
-['B'],
-['C'],
+['A', 'P', 'P', 'L', 'E'],
+['B', 'O', 'A', 'T'],
+['C', 'A', 'N', 'D', 'Y'],
 ['D','O','C','U','M','N','E','N','T'],
 ]
 //console.log(words);
